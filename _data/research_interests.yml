@@ -1,0 +1,27 @@
+- title: Develop computational models of human spoken communication
+  icon: fas fa-wave-square
+  # tag: Core focus
+  synopsis: I build neural network models that map acoustic speech signals to abstract linguistic representations, with the goal of explaining how humans recognize speech across variability in talkers, context, and noise.
+  keywords:
+    - speech perception
+    - artificial neural networks
+    - speech production
+    - speech understanding
+
+- title: Measure humans spoken communication abilities at scale
+  icon: fas fa-chart-line
+  # tag: Methods
+  synopsis: I design novel behavioral experiments to compare model performance to human speech perception, including transcription behavior, confusion patterns, and robustness under challenging listening conditions.
+  keywords:
+    - psychophysics
+    - human-model comparison
+    - benchmarks
+
+- title: Understand the role of contextual integration in shaping human speech perception
+  icon: fas fa-brain
+  # tag: Neuroscience
+  synopsis: I use computational models to reveal the role of context in imrpoving and/or biasing speech perception in humans.
+  keywords:
+    - talker normalization
+    - adaptation effects
+    - coarticulation

@@ -61,21 +61,21 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i>
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.twitter %}
-                        <a class="px-1 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.linkedin %}
                         <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
                             <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+
+                        <!-- {% if site.data.profile.bluesky %}
+                        <a class="px-1 no-break" target="_blank" href="https://bsky.app/profile/{{ site.data.profile.bluesky }}.bsky.social">
+                            <i class="fab fa-square-full"></i>
+                        </a>
+                        {% endif %} -->
+
+                        {% if site.data.profile.twitter %}
+                        <a class="px-1 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                            <i class="fab fa-x-twitter"></i>
                         </a>
                         {% endif %}
 

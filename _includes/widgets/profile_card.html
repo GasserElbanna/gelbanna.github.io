@@ -10,7 +10,7 @@
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
-                                style="height: 200px;"
+                                style="height: 500px;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}">
@@ -32,7 +32,7 @@
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge" style="height: 30px"/>
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}
@@ -76,15 +76,15 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.linkedin %}
                         <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
                             <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.twitter %}
+                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                            <i class="fab fa-twitter"></i> Twitter
                         </a>
                         {% endif %}
 

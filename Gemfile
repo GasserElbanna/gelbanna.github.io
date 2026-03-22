@@ -29,5 +29,12 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Version updated to 0.2: https://github.com/luost26/academic-homepage/issues/23
 gem "wdm", "~> 0.2" if Gem.win_platform?
 
-gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+
+gem "json", "~> 2.18"
+
+gem "webrick", "~> 1.9"
+
+gem "base64"
+
+gem "bigdecimal"
