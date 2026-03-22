@@ -58,10 +58,10 @@ education:
   date: Sep. 2015 - Aug. 2020
 
 experience:
-- name: Bose
-  logo: /assets/images/badges/Bose-logo.png
-  position: Audio Machine Learning Intern
-  date: June. 2026 - Present
+# - name: Bose
+#   logo: /assets/images/badges/Bose-logo.png
+#   position: Audio Machine Learning Intern
+#   date: June. 2026 - Present
 - name: IDIAP Research Institute
   logo: /assets/images/badges/idiap.png
   position: Speech Machine Learning Intern
